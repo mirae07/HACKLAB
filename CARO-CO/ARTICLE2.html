@@ -1,11 +1,9 @@
 <html>
 <head>
 <body>
-<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
    </head>
 <body>
-    
-    
 	 <img src="logo.png" alt="HACKLAB" style="float:left;width:85px;height:85px;">
 	 </a> 	 
 	 </div>
@@ -149,7 +147,7 @@
 	}
 	</style>
   		<a href="contact.html">Contact Us</a>
-		<a href="gallery.html"> Gallery</a>
+		<a href="GALLERY.html"> Gallery</a>
   		<a href="HACKLAB.html">Home</a>
 
 	<div class="Dropdown">
@@ -166,138 +164,137 @@
     </div>
   </div> 
 </div>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {
-  box-sizing: border-box;
-}
+	* {
+  		box-sizing: border-box;
+	}
 
 
-body {
-  font-family: Arial;
-  padding: 20px;
-  background: #ce9466;
-}
+	body {
+  		font-family: Arial;
+  		padding: 20px;
+  		background: #ce9466;
+	}
 
 
-.header {
-  padding: 30px;
-  font-size: 20px;
-  text-align: center;
-  background: #d8cfae;
-}
+	.header {
+  		padding: 30px;
+  		font-size: 20px;
+  		text-align: center;
+  		background: #d8cfae;
+	}
 
-h1 {
-	font-size: 50px;
-	text-align: center;
-	color: #59323C;
-	font-family:century gothic;
-}
+	h1 {
+		font-size: 50px;
+		text-align: center;
+		color: #59323C;
+		font-family:century gothic;
+	}
 
-h2 {
-	font-size: 25px;
-	text-align: center;
-	color: #59323C;
-	font-family:century gothic;
-}
-P {
-	font-size: 18px;
-	text-align: justify;
-	color: black;
-	font-family:century gothic;
-}
-.leftcolumn {   
-  float: left;
-  width: 75%;
-  text-align: justify;
-}
+	h2 {
+		font-size: 25px;
+		text-align: center;
+		color: #59323C;
+		font-family:century gothic;
+	}
+	P {
+		font-size: 18px;
+		text-align: justify;
+		color: black;
+		font-family:century gothic;
+	}
+		.leftcolumn {   
+  		float: left;
+  		width: 75%;
+  		text-align: justify;
+	}
 
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-   text-align: justify;
-}
+	.rightcolumn {
+  		float: left;
+  		width: 25%;
+  		padding-left: 20px;
+   		text-align: justify;
+	}
 
+	.fakeimg {
+  		background-color: #aaa;
+  		width: 100%;
+  		padding: 20px;
+   		text-align: justify;
+	}
 
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-   text-align: justify;
-}
+	.card {
+   		background-color: #d8cfae;
+   		padding: 20px;
+   		margin-top: 20px;
+    		text-align: justify;
+	}
 
-.card {
-   background-color: #d8cfae;
-   padding: 20px;
-   margin-top: 20px;
-    text-align: justify;
-}
+	.row:after {
+  		content: "";
+  		display: table;
+  		clear: both;
+	}
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+	.footer {
+  		padding: 20px;
+  		text-align: center;
+  		background: #ddd;
+  		margin-top: 20px;
+	}
 
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
+	@media screen and (max-width: 800px) {
+  	.leftcolumn, .rightcolumn {   
+    		width: 100%;
+    		padding: 0;
+  	}
+	}
+	#myBtn {
+  		display: none;
+  		position: fixed;
+  		bottom: 20px;
+  		right: 30px;
+  		z-index: 99;
+  		font-size: 18px;
+  		border: none;
+  		outline: none;
+  		background-color: brown;
+  		color: white;
+  		cursor: pointer;
+  		padding: 15px;
+  		border-radius: 4px;
+	}
 
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: brown;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #555; 
-}
+	#myBtn:hover {
+  		background-color: #555; 
+	}
 
 </style>
 </head>
 <body>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-<script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
+	<script>
+	//Get the button
+		var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+	// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+	function scrollFunction() {
+  		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    	mybutton.style.display = "block";
+  	} else {
+    		mybutton.style.display = "none";
+  	}
+	}
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+	// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+  	document.body.scrollTop = 0;
+  	document.documentElement.scrollTop = 0;
+	}
 </script>
 
 <div class="header">
@@ -309,7 +306,7 @@ function topFunction() {
     <div class="card">
       <h2>Makerspace Resources For Schools and Libraries</h2>
       <h5>What is a makerspace? What projects and materials do you recommend for a makerspace? Why are makerspaces becoming so popular in schools and libraries? These are just some of the questions we hear often. </h5>
-      <div class="fakeimg" style="height:200px;"><img src="a.jpg" alt="Library"style="height:160px;"><img src="aa.jpg" alt="Library"style="height:160px;"><img src="1.jpg" alt="Library"style="height:160px;"></div>
+      <div class="fakeimg" style="height:200px;"><img src="picture9.jpg" alt="Library"style="height:160px;"><img src="picture10.jpg" alt="Library"style="height:160px;"><img src="picture2.jpg" alt="Library"style="height:160px;"></div>
       <p>A makerspace is a collaborative work space inside a school, library or separate public/private facility for making, learning, exploring and sharing that uses high tech to no tech tools.  These spaces are open to kids, adults, and entrepreneurs and have a variety of maker equipment including 3D printers, laser cutters, cnc machines, soldering irons and even sewing machines.  A makerspace however doesn’t need to include all of these machines or even any of them to be considered a makerspace.  If you have cardboard, legos and art supplies you’re in business. If you are interested in finding out more about laser cutters though, you could always take a look at someone like Boss Laser. They can provide different types of laser from home use to industrial ones. It might be worthwhile having a look at if you want to make your own makerspace at home as well. It’s more of the maker mindset of creating something out of nothing and exploring your own interests that’s at the core of a makerspace.  These spaces are also helping to prepare those who need the critical 21st century skills in the fields of science, technology, engineering and math (STEM).  They provide hands on learning, help with critical thinking skills and even boost self-confidence.  Some of the skills that are learned in a makerspace pertain to electronics, 3d printing, 3D modeling, coding, robotics and even woodworking,   Makerspaces are also fostering entrepreneurship and are being utilized as incubators and accelerators for business startups.  There have already been some amazing success stories that have come out of makerspaces to date.</p>
       <p>A makerspace can be anything from a repurposed bookcart filled with arts and crafts supplies to a table in a corner set out with LEGOs to a full blown fab lab with 3D printers, laser cutters, and handtools.  No two school makerspaces are exactly alike, nor should they be.  Makerspaces are as unique as the school cultures they represent.   There is no such thing as one form of making being more valid or better than the other.  Makers are artists, crafters, knitters, seamstresses, builders, programmers, engineers, hackers, painters, woodworkers, tinkerers, inventors, bakers, graphic designers and more.</p>
     </div>
@@ -331,9 +328,9 @@ function topFunction() {
     </div>
     <div class="card">
 
-      <div class="fakeimg"><img src="1.jpg" alt="Library"style="height:165px;"></div><br>
-      <div class="fakeimg"><img src="3.jpg" alt="Library"style="height:139px;"></div><br>
-      <div class="fakeimg"><img src="4.jpg" alt="Library"style="height:165px;"></div>
+      <div class="fakeimg"><img src="picture11.jpg" alt="Library"style="height:145px;"></div><br>
+      <div class="fakeimg"><img src="picture12.jpg" alt="Library"style="height:145px;"></div><br>
+      <div class="fakeimg"><img src="picture8.jpg" alt="Library"style="height:165px;"></div>
     </div>
     <div class="card">
       <h3>Makerspace For Education</h3>
